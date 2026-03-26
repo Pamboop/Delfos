@@ -34,7 +34,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- DATA LOADING ---
-DATA_FILE = Path("C:/Users/jvict/Desktop/Pamela s2/Teste Prático - Dados para Tarefa 2 .xlsx")
+DATA_FILE = Path("Teste Prático - Dados para Tarefa 2 .xlsx")
 
 @st.cache_data(show_spinner=False)
 def load_data():
